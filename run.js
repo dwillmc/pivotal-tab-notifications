@@ -8,11 +8,7 @@ function updateTitle() {
               document.title = "Platform - Pivotal Tracker"
           }
       } else {
-          if (document.title.startsWith("(")) {
-              document.title = "(" + notifs + ") " + "Platform - Pivotal Tracker";
-          } else {
-              document.title = "(" + notifs + ") " + "Platform - Pivotal Tracker";
-          }
+          document.title = "(" + notifs + ") " + "Platform - Pivotal Tracker";
       }  
   }
 }
